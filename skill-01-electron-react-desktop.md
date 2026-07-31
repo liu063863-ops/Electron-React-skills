@@ -113,8 +113,6 @@ JSON
 常见坑
 端口占用：后端启动前检查 3001 是否被占用
 CORS：生产时前端直接访问本地服务，无需 CORS
-路径：打包后用 process.resourcesPath 访问额外资源
-补完后提交到 git：
 bash
 git add docs/skills/skill-01-electron-react-desktop.md
 git commit -m "docs: add skill 01 - electron desktop packaging"
